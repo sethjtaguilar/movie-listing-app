@@ -1,7 +1,7 @@
 # Movie Listing App
 
 ## Overview
-A Vue 3 movie listing application that allows users to browse movies, search by title, paginate results, and mark favorites which are persisted in browser storage. This project fulfills all requirements from the frontend developer assessment.
+A Vue 3 movie listing application that allows users to browse movies, search by title, paginate results, and mark favorites which are persisted in browser storage.
 
 ## Features
 - Fetches movies from the mock API
