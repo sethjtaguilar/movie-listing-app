@@ -46,7 +46,7 @@ Lint with ESLint
 npm run lint
 ```
 Project Structure
-text
+```
 src/
 ├── assets/          # Static assets
 ├── components/      # Vue components
@@ -65,6 +65,7 @@ src/
 ├── utils/           # Utility functions
 ├── App.vue          # Main app component
 └── main.ts          # App entry point
+```
 Testing Strategy
 The application includes:
 
