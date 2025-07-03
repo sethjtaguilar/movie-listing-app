@@ -1,0 +1,11 @@
+@forward 'variables';
+@use '@/styles/variables' as *;
+@forward 'main';
+
+.v-application {
+  background-color: #f5f5f5 !important;
+}
+
+.v-card {
+  background-color: white !important;
+}

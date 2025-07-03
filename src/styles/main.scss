@@ -1,0 +1,33 @@
+@use 'variables' as *;
+@use 'sass:color';
+
+// Base reset
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Base styles
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: $background-dark;
+  color: $text-primary;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+// Utility classes
+.loading-state {
+  text-align: center;
+  padding: $spacing-xl;
+  color: color.scale($text-secondary, $lightness: 20%);
+}
+
+.error-state {
+  text-align: center;
+  padding: $spacing-xl;
+  color: $primary-color;
+}
